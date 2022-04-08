@@ -70,7 +70,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
-    height: 844px;
+    height: 744px;
 }
 
 .nav-main-container {
@@ -90,7 +90,8 @@ body {
     justify-content: center;
 }
 
-.nav-logo-container p {
+.nav-logo-container a {
+    color: white;
     font-size: 28px;
     line-height: 60px;
     font-weight: bold;
@@ -140,6 +141,7 @@ body {
 .nav-link a:hover {
     border-bottom: 1.5px solid var(--blue);
     padding-bottom: 5px;
+    color: var(--blue);
 }
 
 .nav-button-sign-up {
@@ -154,6 +156,10 @@ body {
     line-height: 22.63px;
     border: none;
     display: none;
+}
+
+.nav-button-sign-up:hover {
+    background: var(--blueDarker);
 }
 
 .nav-icon-containter {
@@ -283,11 +289,12 @@ i.fa.fa-bars {
 }
 
 .sign-up-container h5 {
+    text-align: center;
     margin-top: 55px;
     font-style: normal;
     font-weight: bold;
     line-height: 30px;
-    font-size: 24px;
+    font-size: 22px;
     color: white;
 }
 
@@ -316,6 +323,10 @@ i.fa.fa-bars {
     border: none;
 }
 
+.sign-up-button:hover {
+    background: var(--orangeDarker);
+}
+
 .side-menu-position {
     padding-top: 25px;
     position: fixed;
@@ -338,13 +349,12 @@ i.fa.fa-bars {
 
 .side-menu-header {
     border-bottom: 1px solid rgba(255, 255, 255, .1);
-    /* based on slack look, very faint */
     display: flex;
     justify-content: space-between;
     padding: 0 25px 25px 25px;
 }
 
-.side-menu-header span {
+.side-menu-logo a {
     font-weight: bolder;
     line-height: 30px;
     font-family: 'cera pro';
@@ -354,10 +364,8 @@ i.fa.fa-bars {
 .side-menu-content {
     color: var(--slaterGray);
     font-size: 24px;
-    /* could use ems here I guess but eh... */
     margin: 25px;
     padding-left: 0;
-    /* zeroing it out */
 }
 
 .side-menu-content li {
@@ -1385,6 +1393,10 @@ i.fa.fa-bars {
         display: block;
     }
 
+    .nav-logo-container a:hover {
+        color: var(--blue);
+    }
+
     .nav-icon-containter {
         margin-top: 18px;
         display: flex;
@@ -1446,7 +1458,6 @@ i.fa.fa-bars {
         font-style: normal;
         font-weight: bold;
         line-height: 23px;
-        color: white;
         font-size: 18px;
     }
 
@@ -1487,6 +1498,7 @@ i.fa.fa-bars {
     .form-field {
         border-radius: 0px;
         padding-left: 10px;
+        outline-color: var(--blue);
     }
 
     .sign-up-button {
@@ -1936,12 +1948,10 @@ i.fa.fa-bars {
     }
 
 
-    .nav-logo-container p {
+    .nav-logo-container a {
         font-size: 36px;
         line-height: 60px;
         font-weight: bold;
         font-style: normal;
     }
-
-
 }
