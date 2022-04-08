@@ -273,7 +273,7 @@ i.fa.fa-bars {
 .sign-up-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 323px;
     height: 250px;
     background-color: rgba(51, 63, 82, 0.3);
@@ -283,7 +283,6 @@ i.fa.fa-bars {
 
 .sign-up-container h5 {
     text-align: center;
-    margin-top: 55px;
     font-style: normal;
     font-weight: bold;
     line-height: 30px;
