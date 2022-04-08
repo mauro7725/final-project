@@ -286,7 +286,7 @@ i.fa.fa-bars {
     font-style: normal;
     font-weight: bold;
     line-height: 30px;
-    font-size: 22px;
+    font-size: 18px;
     color: white;
 }
 
@@ -303,7 +303,7 @@ i.fa.fa-bars {
     border-radius: 5px;
     width: 290px;
     height: 50px;
-    border: none;
+    outline-color: var(--blue);
 }
 
 .sign-up-button {
@@ -1490,7 +1490,6 @@ i.fa.fa-bars {
     .form-field {
         border-radius: 0px;
         padding-left: 10px;
-        outline-color: var(--blue);
     }
 
     .sign-up-button {
