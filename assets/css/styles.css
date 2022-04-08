@@ -300,6 +300,7 @@ i.fa.fa-bars {
 }
 
 .form-field {
+    border: none;
     border-radius: 5px;
     width: 290px;
     height: 50px;
@@ -385,8 +386,8 @@ i.fa.fa-bars {
     display: grid;
     grid-template-columns: auto;
     background-color: white;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 360px;
     height: 580px;
     border-radius: 28px;
@@ -413,30 +414,30 @@ i.fa.fa-bars {
 
 .icon-bullhorn {
     display: inline-block;
-    background-image: url("../images/icons/Icon_1.png");
-    width: 56px;
-    height: 56px;
+    background-image: url("../images/icons/stat_icon_horn_medium.png");
+    width: 42px;
+    height: 42px;
 }
 
 .icon-analytical {
     display: inline-block;
-    background-image: url("../images/icons/Icon_2.png");
-    width: 56px;
-    height: 56px;
+    background-image: url("../images/icons/stat_icon_graph_medium.png");
+    width: 42px;
+    height: 42px;
 }
 
 .icon-header {
     display: inline-block;
-    background-image: url("../images/icons/Icon_3.png");
-    width: 56px;
-    height: 56px;
+    background-image: url("../images/icons/stat_icon_graph_medium.png");
+    width: 42px;
+    height: 42px;
 }
 
 .icon-card {
     display: inline-block;
-    background-image: url("../images/icons/Icon_4.png");
-    width: 56px;
-    height: 56px;
+    background-image: url("../images/icons/stat_icon_card_medium.png");
+    width: 42px;
+    height: 42px;
 }
 
 .icon-item h5 {
@@ -1393,6 +1394,30 @@ i.fa.fa-bars {
     .nav-icon-containter {
         margin-top: 18px;
         display: flex;
+    }
+
+    .icon-bullhorn {
+        background-image: url("../images/icons/stat_icon_horn_large.png");
+        width: 56px;
+        height: 56px;
+    }
+
+    .icon-analytical {
+        background-image: url("../images/icons/stat_icon_graph_large.png");
+        width: 56px;
+        height: 56px;
+    }
+
+    .icon-header {
+        background-image: url("../images/icons/stat_icon_graph_large.png");
+        width: 56px;
+        height: 56px;
+    }
+
+    .icon-card {
+        background-image: url("../images/icons/stat_icon_card_large.png");
+        width: 56px;
+        height: 56px;
     }
 
     .nav-button-sign-up {
