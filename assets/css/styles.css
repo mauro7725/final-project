@@ -500,7 +500,8 @@ i.fa.fa-bars {
     margin-top: 30px;
     background-color: white;
     width: 360px;
-    height: 590px;
+    height: 640px;
+    margin-bottom: 30px;
 }
 
 .form-block h3 {
@@ -624,7 +625,7 @@ i.fa.fa-bars {
 .first-name-container {
     width: 360px;
     height: 73px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -680,7 +681,7 @@ i.fa.fa-bars {
 .last-name-container {
     width: 360px;
     height: 73px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -733,7 +734,7 @@ i.fa.fa-bars {
 }
 
 .email-address-container {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     width: 360px;
     height: 73px;
     display: flex;
@@ -874,7 +875,7 @@ i.fa.fa-bars {
 .text-opt-in-container {
     width: 360px;
     height: 73px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
