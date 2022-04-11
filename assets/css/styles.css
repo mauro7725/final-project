@@ -46,6 +46,10 @@ body {
     font-family: 'cera pro';
 }
 
+a {
+    text-decoration: none;
+}
+
 
 
 #main-container {
@@ -1811,6 +1815,10 @@ i.fa.fa-envelope-open.w3-larger {
         margin-top: 7px;
     }
 
+    .lastest-media-left-header h4:hover {
+        color: var(--blue);
+    }
+
     .lastest-media-left-content {
         width: 525px;
         height: 189px;
@@ -1837,6 +1845,10 @@ i.fa.fa-envelope-open.w3-larger {
     .category-headline h4 {
         font-size: 24px;
         line-height: 30px;
+    }
+
+    .category-headline h4:hover {
+        color: var(--blue);
     }
 
     .lastest-media-right-container {
