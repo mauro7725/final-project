@@ -1712,6 +1712,11 @@ i.fa.fa-envelope-open.w3-larger {
         height: 36px;
     }
 
+    .quote-button i:hover {
+        color: var(--blue);
+    }
+
+
     .quote-author img {
         width: 58px;
     }
