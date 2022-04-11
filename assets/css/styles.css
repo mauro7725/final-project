@@ -1346,10 +1346,6 @@ i.fa.fa-envelope-open.w3-larger {
     color: var(--blue);
 }
 
-.social-link i:hover {
-    color: white;
-    background-color: var(--blue);
-}
 
 
 .footer-socials span {
@@ -2008,7 +2004,32 @@ i.fa.fa-envelope-open.w3-larger {
     .social-link {
         width: 32px;
         height: 32px;
+        background-color: white;
     }
+
+
+    .social-link:hover {
+        background-color: var(--blue);
+        color: white;
+    }
+
+    .social-link:hover .fa-twitter {
+        color: white;
+    }
+
+    .social-link:hover .fa-facebook {
+        color: white;
+    }
+
+    .social-link:hover .fa-linkedin-in {
+        color: white;
+    }
+
+    .social-link:hover .fa-instagram {
+        color: white;
+    }
+
+
 
     .footer-socials {
         margin-top: 0px;

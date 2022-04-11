@@ -1,3 +1,12 @@
+console.log("hello");
+
+function hello() {
+    console.log("hello");
+}
+
+hello();
+
+
 function sideMenuAppears() {
     document.getElementById('side-menu').classList.add('show-menu');
 }
@@ -120,7 +129,6 @@ mql.onchange = (e) => {
         forwardButton.classList.add("w3-xlarge");
     }
 }
-
 
 
 
