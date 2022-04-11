@@ -1346,6 +1346,12 @@ i.fa.fa-envelope-open.w3-larger {
     color: var(--blue);
 }
 
+.social-link i:hover {
+    color: white;
+    background-color: var(--blue);
+}
+
+
 .footer-socials span {
     width: 100%;
     font-style: normal;
@@ -1386,6 +1392,7 @@ i.fa.fa-envelope-open.w3-larger {
 .footer-row-2-para-2 {
     font-family: "gilroy";
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-size: 10px;
     line-height: 15px;
@@ -1969,6 +1976,10 @@ i.fa.fa-envelope-open.w3-larger {
         margin-top: 0px;
     }
 
+    .footer-button:hover {
+        background: var(--blueDarker);
+    }
+
     .footer-row-2-para-2 {
         font-size: 14px;
         line-height: 24px;
@@ -2000,7 +2011,7 @@ i.fa.fa-envelope-open.w3-larger {
     }
 
     .footer-socials {
-        margin-top: 10px;
+        margin-top: 0px;
         width: 350px;
         height: 32px;
         margin-bottom: 0px;
@@ -2017,6 +2028,15 @@ i.fa.fa-envelope-open.w3-larger {
     .nav-logo-container-footer a {
         font-size: 36px;
         line-height: 60px;
+        cursor: pointer;
+    }
+
+    .nav-logo-container-footer a:hover {
+        color: var(--blue);
+    }
+
+    .footer-underline a:hover {
+        color: var(--blue);
     }
 
 }
