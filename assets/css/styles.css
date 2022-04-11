@@ -530,41 +530,41 @@ i.fa.fa-bars {
 .form-block-success {
     display: none;
     width: 360px;
-    height: 300px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    height: 240px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.form-block-success-content {
-    width: 360px;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.form-block-success p {
+    font-family: "cera pro";
+    font-size: 13px;
+    font-style: normal;
+    line-height: 30px;
+    color: var(--gronkGray);
 }
+
+.form-block-success-share {
+    font-family: "cera pro";
+    font-size: 16px;
+    font-style: normal;
+    line-height: 30px;
+    color: var(--gronkGray);
+}
+
 
 .form-block-success-content span {
     margin-bottom: 20px;
     font-style: normal;
     font-size: 18px;
     line-height: 30px;
-    color: var(--gronkGray);
+    color: #2DA1F8;
 }
 
 .form-block-success-banner {
     font-style: normal;
-    font-size: 36px;
-    line-height: 60px;
-    color: rgba(45, 161, 248, 1);
-}
-
-.form-block-success-content p {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-style: normal;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 30px;
-    color: var(--gronkGray);
+    color: #2DA1F8;
 }
 
 .hide-block {
@@ -572,7 +572,7 @@ i.fa.fa-bars {
 }
 
 .show-block {
-    display: block;
+    display: flex;
 }
 
 .form-block-buttons {
@@ -591,14 +591,26 @@ i.fa.fa-bars {
     background: #1DA1F2;
 }
 
+.form-block-button-twitter:hover {
+    background: var(--blueDarker);
+}
+
 .form-block-button-facebook {
     color: white;
     background: #1575EB;
 }
 
+.form-block-button-facebook:hover {
+    background: var(--blueDarker);
+}
+
 .form-block-button-email {
     color: white;
     background: var(--orangeGradient);
+}
+
+.form-block-button-email:hover {
+    background: var(--orangeDarker);
 }
 
 .form-error {
@@ -897,6 +909,10 @@ i.fa.fa-bars {
     background: var(--orangeGradient);
     color: white;
     border: none;
+}
+
+.form-submit-button:hover {
+    background: var(--orangeDarker);
 }
 
 
@@ -1462,9 +1478,14 @@ i.fa.fa-bars {
     }
 
     .form-block-success {
-        width: 741px;
-        height: 406px;
+        width: 851px;
+        height: 240px;
         margin-top: 120px;
+    }
+
+    .form-block-success-banner {
+        font-size: 36px;
+        line-height: 60px;
     }
 
     .form-error span {
@@ -1548,6 +1569,15 @@ i.fa.fa-bars {
     .form-block-success-content {
         width: 851px;
         height: 240px;
+    }
+
+    .form-block-success p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .form-block-success-share {
+        font-size: 24px;
     }
 
     .form-block-success-content span {
