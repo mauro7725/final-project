@@ -580,7 +580,7 @@ i.fa.fa-bars {
 }
 
 .form-block-buttons button {
-    width: 85px;
+    width: 110px;
     height: 50px;
     margin-right: 16px;
     border: none;
@@ -589,6 +589,11 @@ i.fa.fa-bars {
 .form-block-button-twitter {
     color: white;
     background: #1DA1F2;
+}
+
+i.fa.fa-twitter.w3-larger {
+    margin-right: 10px;
+    color: white;
 }
 
 .form-block-button-twitter:hover {
@@ -604,6 +609,11 @@ i.fa.fa-bars {
     background: var(--blueDarker);
 }
 
+i.fa.fa-facebook.w3-larger {
+    margin-right: 10px;
+    color: white;
+}
+
 .form-block-button-email {
     color: white;
     background: var(--orangeGradient);
@@ -611,6 +621,11 @@ i.fa.fa-bars {
 
 .form-block-button-email:hover {
     background: var(--orangeDarker);
+}
+
+i.fa.fa-envelope-open {
+    margin-right: 10px;
+    color: white;
 }
 
 .form-error {
