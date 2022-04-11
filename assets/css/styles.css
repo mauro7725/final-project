@@ -1900,6 +1900,10 @@ i.fa.fa-envelope-open.w3-larger {
         line-height: 23px;
     }
 
+    .tech-news-post-headline h5:hover {
+        color: var(--blue);
+    }
+
     .embedded-google-map {
         margin-top: 92px;
         margin-bottom: 48px;
