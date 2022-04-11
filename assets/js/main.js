@@ -1,12 +1,3 @@
-console.log("hello");
-
-function hello() {
-    console.log("hello");
-}
-
-hello();
-
-
 function sideMenuAppears() {
     document.getElementById('side-menu').classList.add('show-menu');
 }
