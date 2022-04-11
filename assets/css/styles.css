@@ -1189,7 +1189,7 @@ i.fa.fa-envelope-open.w3-larger {
 }
 
 .quote-block {
-    background-image: url("/assets/images/quote.png"), var(--blueGradient);
+    background-image: url("../images/quote.png"), var(--blueGradient);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
