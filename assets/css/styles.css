@@ -1492,6 +1492,8 @@ i.fa.fa-envelope-open.w3-larger {
 
     .form-block {
         width: 550px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 
     .main-form-container {
@@ -1539,6 +1541,7 @@ i.fa.fa-envelope-open.w3-larger {
 
     .about-text-block {
         width: 550px;
+        margin-bottom: 60px;
     }
 
     .blue-hr {
@@ -1557,6 +1560,7 @@ i.fa.fa-envelope-open.w3-larger {
 
     .featured-video-block {
         width: 550px;
+        margin-bottom: 60px;
     }
 
     .video-content-header h6 {
@@ -1578,6 +1582,7 @@ i.fa.fa-envelope-open.w3-larger {
 
     .latest-media-block {
         width: 550px;
+        margin-bottom: 60px;
     }
 
     .feature-image {
@@ -1619,6 +1624,7 @@ i.fa.fa-envelope-open.w3-larger {
 
     .tech-news-block {
         width: 550px;
+        margin-bottom: 60px;
     }
 
     .tech-news-header h2 {
