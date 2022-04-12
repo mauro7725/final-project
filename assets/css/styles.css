@@ -457,7 +457,7 @@ i.fa.fa-bars {
 }
 
 .icon-item h5 {
-    color: #333F52
+    color: var(--slaterGray);
 }
 
 .icon-p {
@@ -1450,7 +1450,7 @@ i.fa.fa-envelope-open.w3-larger {
         font-size: 17px;
     }
 
-    .icon-item p {
+    .icon-p {
         font-size: 14px;
     }
 
@@ -1869,9 +1869,17 @@ i.fa.fa-envelope-open.w3-larger {
         margin-bottom: 112px;
     }
 
+    .icon-item h5 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
     .icon-p {
         width: 350px;
+        font-size: 16px;
+        line-height: 30px;
     }
+
 
     .stats-block {
         height: 303px;
@@ -2296,7 +2304,6 @@ i.fa.fa-envelope-open.w3-larger {
     }
 
     .footer-row-2-para-2 {
-        /* margin-left: 260px; */
         margin-left: 180px;
         align-items: center;
         justify-content: space-between;
@@ -2414,6 +2421,10 @@ i.fa.fa-envelope-open.w3-larger {
     .tech-news-container {
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 30px;
+    }
+
+    .footer-row-2-para-2 {
+        margin-left: 260px;
     }
 
 }
