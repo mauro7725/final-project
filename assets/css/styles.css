@@ -1409,7 +1409,8 @@ i.fa.fa-envelope-open.w3-larger {
 
     .icon-block {
         grid-template-columns: auto auto;
-        width: 620px;
+        grid-gap: 10px;
+        width: 680px;
     }
 
     .nav-logo-container a {
