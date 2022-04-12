@@ -2076,7 +2076,7 @@ i.fa.fa-envelope-open.w3-larger {
         margin: 0px 0px;
     }
 
-    .about-text-paragraph {
+    .about-text-paragraph p {
         font-size: 16px;
         line-height: 30px;
     }
@@ -2176,6 +2176,7 @@ i.fa.fa-envelope-open.w3-larger {
 
     .lastest-media-left-paragraph p {
         margin-top: 4px;
+        line-height: 30px;
     }
 
     .meta-text {
