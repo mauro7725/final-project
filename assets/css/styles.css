@@ -1389,11 +1389,15 @@ i.fa.fa-envelope-open.w3-larger {
 .footer-row-2-para-2 {
     font-family: "gilroy";
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     font-size: 10px;
     line-height: 15px;
     margin-top: 10px;
+}
+
+.footer-row-2-para-2 span {
+    margin-left: 10px;
 }
 
 
@@ -1508,6 +1512,30 @@ i.fa.fa-envelope-open.w3-larger {
         padding: 0px;
     }
 
+    .form-block-success {
+        width: 550px;
+    }
+
+    .form-block-success-banner {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .form-block-success p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .form-block-buttons button {
+        width: 140px;
+    }
+
+    .form-block-buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
     .about-text-block {
         width: 550px;
     }
@@ -1611,7 +1639,7 @@ i.fa.fa-envelope-open.w3-larger {
     }
 
     .quotes {
-        width: 550px;
+        width: 650px;
     }
 
     .quotes blockquote {
@@ -1860,6 +1888,11 @@ i.fa.fa-envelope-open.w3-larger {
     .stat-container h4 {
         font-size: 21px;
         line-height: 26px;
+    }
+
+    .form-block-buttons {
+        display: block;
+        justify-content: none;
     }
 
     .form-block-buttons button {
@@ -2264,6 +2297,10 @@ i.fa.fa-envelope-open.w3-larger {
         font-size: 14px;
         line-height: 24px;
         margin-top: 0px;
+    }
+
+    .footer-row-2-para-2 span {
+        margin-left: 10px;
     }
 
     .footer-button {
