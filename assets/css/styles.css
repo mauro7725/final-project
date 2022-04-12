@@ -38,6 +38,7 @@ h6 {
 
 button {
     cursor: pointer;
+    font-family: "cera pro";
 }
 
 html,
@@ -325,6 +326,7 @@ i.fa.fa-bars {
 .sign-up-button {
     width: 290px;
     height: 50px;
+    font-size: 16px;
     border-radius: 5px;
     background: var(--orangeGradient);
     color: white;
@@ -470,7 +472,7 @@ i.fa.fa-bars {
 
 .stats-block {
     background-color: var(--slaterGray);
-    background-image: url("../images/stats.png"), var(--overlayGradient);
+    background-image: url("../images/stats-small.png"), var(--overlayGradient);
     background-blend-mode: normal;
     background-size: 100% 100%;
     display: flex;
@@ -501,7 +503,6 @@ i.fa.fa-bars {
 }
 
 .stat-container h4 {
-    font-weight: medium;
     font-size: 18px;
     line-height: 23px;
     color: white;
@@ -922,7 +923,7 @@ i.fa.fa-envelope-open.w3-larger {
 .form-submit-button {
     width: 360px;
     height: 51px;
-    padding: 20px;
+    font-size: 16px;
     margin-top: 14px;
     border-radius: 5px;
     background: var(--orangeGradient);
@@ -1189,7 +1190,7 @@ i.fa.fa-envelope-open.w3-larger {
 }
 
 .quote-block {
-    background-image: url("../images/quote.png"), var(--blueGradient);
+    background-image: url("../images/quote-small.png"), var(--blueGradient);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -1396,6 +1397,269 @@ i.fa.fa-envelope-open.w3-larger {
 }
 
 
+@media screen and (min-width: 768px) {
+    .hero-block {
+        background-image: url("../images/hero-medium.png"), linear-gradient(rgb(51, 63, 82, 0.0), rgb(53, 72, 96, 1.0));
+    }
+
+    .form-field,
+    .sign-up-button {
+        width: 550px;
+    }
+
+    .icon-block {
+        grid-template-columns: auto auto;
+        width: 620px;
+    }
+
+    .nav-logo-container a {
+        font-size: 32px;
+    }
+
+    .header-text-container {
+        width: 550px;
+    }
+
+    .header-text-container p {
+        font-size: 18px;
+    }
+
+    .header-text-container h1 {
+        font-size: 30px;
+    }
+
+    .sign-up-container {
+        width: 550px;
+    }
+
+    .sign-up-container h5 {
+        font-size: 20px;
+    }
+
+    .sign-up-button {
+        font-size: 20px;
+    }
+
+    .icon-item h5 {
+        font-size: 20px;
+    }
+
+    .icon-item p {
+        font-size: 16px;
+    }
+
+    .stats-block {
+        background-image: url("../images/stats-medium.png"), var(--overlayGradient);
+    }
+
+    .stats-container {
+        flex-direction: row;
+        width: 550px;
+    }
+
+    .stat-container span {
+        font-size: 26px;
+    }
+
+    .stat-container h4 {
+        font-size: 20px;
+    }
+
+    .form-error span {
+        font-size: 16px;
+    }
+
+
+
+
+    .first-name-field i,
+    .last-name-field i,
+    .email-address-field i,
+    .zip-code-field i,
+    .text-opt-in-field i {
+        right: -180px;
+    }
+
+    .form-block h3 {
+        font-size: 22px;
+    }
+
+    .form-block {
+        width: 550px;
+    }
+
+    .main-form-container {
+        width: 550px;
+    }
+
+
+    .first-name-field input,
+    .last-name-field input,
+    .email-address-field input,
+    .zip-code-field input,
+    .text-opt-in-field input {
+        width: 550px;
+    }
+
+    .form-submit-button {
+        width: 550px;
+        font-size: 18px;
+        padding: 0px;
+    }
+
+    .about-text-block {
+        width: 550px;
+    }
+
+    .blue-hr {
+        width: 24px;
+        height: 2px;
+    }
+
+    .about-text-header p {
+        font-size: 22px;
+    }
+
+    .about-text-paragraph p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .featured-video-block {
+        width: 550px;
+    }
+
+    .video-content-header h6 {
+        font-size: 22px;
+    }
+
+    .video-content-paragraph {
+        width: 550px;
+    }
+
+    .video-content-paragraph p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .lastest-media-left-header h5 {
+        font-size: 22px;
+    }
+
+    .latest-media-block {
+        width: 550px;
+    }
+
+    .feature-image {
+        width: 550px;
+    }
+
+    .lastest-media-left-content {
+        width: 550px;
+    }
+
+    .lastest-media-left-category-header h6 {
+        font-size: 18px;
+    }
+
+    .lastest-media-left-header h4 {
+        font-size: 18px;
+    }
+
+    .lastest-media-left-paragraph p {
+        font-size: 16px;
+    }
+
+    .meta-text i {
+        font-size: 14px;
+    }
+
+    .lastest-media-right-container {
+        width: 550px;
+        align-items: flex-start;
+    }
+
+    .category-header h6 {
+        font-size: 18px;
+    }
+
+    .category-headline h4 {
+        font-size: 22px;
+    }
+
+    .tech-news-block {
+        width: 550px;
+    }
+
+    .tech-news-header h2 {
+        font-size: 22px;
+    }
+
+    .tech-news-post {
+        width: 260px;
+        margin-bottom: 10px;
+    }
+
+    .tech-news-post img {
+        width: 260px;
+        height: 140px;
+    }
+
+    .tech-news-post-headline h5 {
+        width: 100%;
+    }
+
+    .quotes {
+        width: 550px;
+    }
+
+    .quotes blockquote {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .quote-author-name {
+        font-size: 18px;
+    }
+
+    .quote-author-position {
+        font-size: 16px;
+    }
+
+    .quote-author img {
+        width: 32px;
+    }
+
+    .quote-block {
+        background-image: url("../images/quote-medium.png"), var(--blueGradient);
+    }
+
+    .footer-block {
+        padding: 0px 40px;
+    }
+
+    .nav-logo-container-footer a {
+        font-size: 28px;
+    }
+
+    .nav-link a {
+        font-size: 16px;
+    }
+
+    .footer-socials span {
+        font-size: 18px;
+    }
+
+    .footer-row-2-para-1 {
+        font-size: 12px;
+    }
+
+    .footer-row-2-para-2 {
+        font-size: 12px;
+    }
+
+}
+
 @media screen and (min-width: 1200px) {
     .hero-block {
         background-image: url("../images/hero-large.png"), linear-gradient(rgb(51, 63, 82, 0.0), rgb(53, 72, 96, 1.0));
@@ -1541,6 +1805,19 @@ i.fa.fa-envelope-open.w3-larger {
     .form-field {
         border-radius: 0px;
         padding-left: 10px;
+        width: 290px;
+        height: 50px;
+    }
+
+    .sign-up-button {
+        width: 290px;
+        height: 50px;
+    }
+
+
+    .first-name-field input,
+    .last-name-field input {
+        width: 358px;
     }
 
     .sign-up-button {
@@ -1565,6 +1842,7 @@ i.fa.fa-envelope-open.w3-larger {
     .stats-block {
         height: 303px;
         padding: 98px 0px;
+        background-image: url("../images/stats-large.png"), var(--overlayGradient);
     }
 
     .stats-container {
@@ -1619,6 +1897,14 @@ i.fa.fa-envelope-open.w3-larger {
 
     .form-error i {
         font-size: 24px;
+    }
+
+    .first-name-field i,
+    .last-name-field i,
+    .email-address-field i,
+    .zip-code-field i,
+    .text-opt-in-field i {
+        right: 10px;
     }
 
     .form-block h3 {
@@ -1694,6 +1980,7 @@ i.fa.fa-envelope-open.w3-larger {
     }
 
     .quote-block {
+        background-image: url("../images/quote-large.png"), var(--blueGradient);
         margin-top: 15px;
         height: 300px;
         width: 100%;
@@ -1775,10 +2062,16 @@ i.fa.fa-envelope-open.w3-larger {
         margin: 0px 0px;
     }
 
+    .video-content-paragraph {
+        width: 360px;
+        margin-bottom: 30px;
+    }
+
     .video-content-paragraph p {
         font-size: 16px;
         line-height: 30px;
     }
+
 
     .latest-media-block {
         display: flex;
@@ -1928,6 +2221,7 @@ i.fa.fa-envelope-open.w3-larger {
     }
 
     .footer-block {
+        padding: 0px 0px;
         align-items: center;
         justify-content: start;
         height: 250px;
@@ -1958,6 +2252,10 @@ i.fa.fa-envelope-open.w3-larger {
     .footer-row-2-para-2 {
         margin-left: 260px;
         align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 0px;
     }
 
     .footer-button {
@@ -1974,12 +2272,6 @@ i.fa.fa-envelope-open.w3-larger {
 
     .footer-button:hover {
         background: var(--blueDarker);
-    }
-
-    .footer-row-2-para-2 {
-        font-size: 14px;
-        line-height: 24px;
-        margin-top: 0px;
     }
 
     .footer-row-2 span {
@@ -2060,10 +2352,4 @@ i.fa.fa-envelope-open.w3-larger {
         color: var(--blue);
     }
 
-}
-
-@media screen and (min-width: 720px) {
-    .hero-block {
-        background-image: url("../images/hero-medium.png"), linear-gradient(rgb(51, 63, 82, 0.0), rgb(53, 72, 96, 1.0));
-    }
 }
