@@ -1992,6 +1992,7 @@ i.fa.fa-envelope-open.w3-larger {
         height: 200px;
         /* margin: 0px 146px; */
         margin: 0px 120px;
+
     }
 
     .quotes blockquote {
@@ -2255,9 +2256,8 @@ i.fa.fa-envelope-open.w3-larger {
     }
 
     .footer-row-2-para-2 {
-        margin-left: 260px;
         /* margin-left: 260px; */
-        margin-left: 200px;
+        margin-left: 180px;
         align-items: center;
         justify-content: space-between;
         font-size: 14px;
