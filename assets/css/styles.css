@@ -2119,7 +2119,7 @@ i.fa.fa-envelope-open.w3-larger {
     .blue-hr {
         width: 30px;
         height: 2px;
-        padding: 1px;
+        padding: 2px;
     }
 
     .about-text-header p {
@@ -2294,6 +2294,7 @@ i.fa.fa-envelope-open.w3-larger {
 
     .tech-news-post-headline h5 {
         font-size: 18px;
+        font-weight: bold;
         line-height: 23px;
     }
 
