@@ -151,7 +151,7 @@ a {
 
 .nav-link-container-footer {
     display: flex;
-    align-items: center;
+    margin-top: 10px;
     width: 360px;
     height: 32px;
 }
@@ -173,7 +173,9 @@ a {
     font-weight: 700;
     font-family: 'cera pro';
     line-height: 60px;
+    padding-bottom: 2px;
 }
+
 
 .nav-link h5:hover {
     border-bottom: 2px solid var(--blue);
@@ -1398,6 +1400,8 @@ i.fa.fa-envelope-open.w3-larger {
     width: 137px;
     height: 48px;
     background: var(--blueGradient);
+    font-size: 18px;
+    font-weight: bold;
     color: white;
     border: none;
     margin-top: 6px;
