@@ -2062,6 +2062,7 @@ i.fa.fa-envelope-open.w3-larger {
     }
 
     .form-submit-button {
+        font-size: 18px;
         border-radius: 0px;
         width: 214px;
         height: 60px;
