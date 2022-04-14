@@ -1744,6 +1744,7 @@ i.fa.fa-envelope-open.w3-larger {
     }
 
     .nav-link h5 {
+        color: white;
         font-size: 18px;
         line-height: 23px;
         font-weight: bold;
@@ -2418,6 +2419,7 @@ i.fa.fa-envelope-open.w3-larger {
 
 
     .nav-logo-container a {
+        color: white;
         font-size: 36px;
         line-height: 60px;
         font-weight: bold;
