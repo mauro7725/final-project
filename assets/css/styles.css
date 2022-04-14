@@ -12,8 +12,20 @@
 
 @font-face {
     font-family: 'cera pro';
-    src: url("../cera-pro/Cera Pro Regular.otf") format('opentype');
-    font-weight: normal;
+    src:
+        url("../cera-pro/Cera Pro Regular.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Regular\ Italic.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Medium\ Italic.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Medium.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Thin.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Thin\ Italic.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Black.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Black\ Italic.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Bold.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Bold\ Italic.otf"), format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Black\ Italic.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Light.otf") format('opentype'),
+        url("../cera-pro/Cera\ Pro\ Light\ Italic.otf") format('opentype');
 }
 
 @font-face {
@@ -88,6 +100,10 @@ a {
     min-height: 680px;
 }
 
+.nav-icon-container {
+    display: none;
+}
+
 .nav-main-container {
     align-items: center;
     width: 85%;
@@ -159,10 +175,9 @@ a {
     line-height: 60px;
 }
 
-.nav-link a:hover {
+.nav-link h5:hover {
     border-bottom: 1.5px solid var(--blue);
     padding-bottom: 5px;
-    color: var(--blue);
 }
 
 .nav-button-sign-up {
@@ -172,7 +187,7 @@ a {
     background: var(--blueGradient);
     font-size: 18px;
     font-family: 'cera pro';
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
     line-height: 22.63px;
     border: none;
@@ -294,8 +309,7 @@ i.fa.fa-bars {
     justify-content: space-evenly;
     width: 323px;
     height: 250px;
-    background-color: rgba(51, 63, 82, 0.3);
-    background-blend-mode: multiply;
+    background-color: rgba(51, 63, 82, 0.5);
     align-items: center;
 }
 
@@ -323,6 +337,20 @@ i.fa.fa-bars {
     width: 290px;
     height: 50px;
     outline-color: var(--blue);
+}
+
+.form-field::-webkit-input-placeholder,
+.form-field::-moz-placeholder,
+.form-field:-ms-input-placeholder,
+.form-field:-moz-placeholder {
+    /* Chrome/Opera/Safari */
+    /* Firefox 19+ */
+    /* Firefox 18- */
+    color: #666D78;
+    opacity: 50%;
+    font-family: "cera pro";
+    font-weight: normal;
+    font-size: 16px;
 }
 
 .sign-up-button {
@@ -1715,13 +1743,19 @@ i.fa.fa-envelope-open.w3-larger {
         display: block;
     }
 
-    .nav-logo-container a:hover {
-        color: var(--blue);
+    .nav-link-container-header h5 {
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: bold;
     }
 
-    .nav-icon-containter {
+    .nav-icon-container {
         margin-top: 18px;
         display: flex;
+    }
+
+    i.fa.fa-twitter.w3-xlarge:before {
+        margin-right: 22px;
     }
 
     .icon-bullhorn {
@@ -1856,6 +1890,10 @@ i.fa.fa-envelope-open.w3-larger {
     .sign-up-button {
         width: 290px;
         height: 50px;
+        border-radius: 0px;
+        margin-left: 32px;
+        font-size: 18px;
+        font-weight: bold;
     }
 
 
@@ -1863,12 +1901,6 @@ i.fa.fa-envelope-open.w3-larger {
     .last-name-field input {
         width: 358px;
     }
-
-    .sign-up-button {
-        border-radius: 0px;
-        margin-left: 32px;
-    }
-
 
     .icon-block {
         grid-template-columns: auto auto;
@@ -2398,6 +2430,10 @@ i.fa.fa-envelope-open.w3-larger {
         line-height: 60px;
         font-weight: bold;
         font-style: normal;
+    }
+
+    .nav-logo-container a:hover {
+        color: var(--blue);
     }
 
     .nav-logo-container-footer a {
