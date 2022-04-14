@@ -166,7 +166,7 @@ a {
     list-style: none;
 }
 
-.nav-link a {
+.nav-link h5 {
     text-decoration: none;
     color: white;
     font-size: 14px;
@@ -1714,7 +1714,7 @@ i.fa.fa-envelope-open.w3-larger {
         font-size: 28px;
     }
 
-    .nav-link a {
+    .nav-link h5 {
         font-size: 16px;
     }
 
@@ -1743,7 +1743,7 @@ i.fa.fa-envelope-open.w3-larger {
         display: block;
     }
 
-    .nav-link-container-header h5 {
+    .nav-link h5 {
         font-size: 18px;
         line-height: 23px;
         font-weight: bold;
@@ -2374,13 +2374,6 @@ i.fa.fa-envelope-open.w3-larger {
         margin-left: 10px;
         font-size: 14px;
         line-height: 24px;
-    }
-
-
-    .nav-link a {
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 23px;
     }
 
     .footer-socials span {
