@@ -176,7 +176,7 @@ a {
 }
 
 .nav-link h5:hover {
-    border-bottom: 1.5px solid var(--blue);
+    border-bottom: 2px solid var(--blue);
     padding-bottom: 5px;
 }
 
@@ -2117,9 +2117,8 @@ i.fa.fa-envelope-open.w3-larger {
     }
 
     .blue-hr {
-        width: 30px;
+        width: 31px;
         height: 2px;
-        padding: 2px;
     }
 
     .about-text-header p {
