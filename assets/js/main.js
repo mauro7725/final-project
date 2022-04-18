@@ -1,8 +1,18 @@
 function sideMenuAppears() {
     document.getElementById('side-menu').classList.add('show-menu');
+    document.querySelector('.side-menu-position').style.display = "block";
+    document.querySelector('.nav-logo-container a').style.display = "none";
+    document.querySelector('.header-text-container h1').style.display = "none";
+    document.querySelector('.header-text-container p').style.display = "none";
+    document.querySelector('.hamburger-menu img').style.display = "none";
 }
 function sideMenuDisappears() {
     document.getElementById('side-menu').classList.remove('show-menu');
+    document.querySelector('.side-menu-position').style.display = "none";
+    document.querySelector('.nav-logo-container a').style.display = "block";
+    document.querySelector('.header-text-container h1').style.display = "block";
+    document.querySelector('.header-text-container p').style.display = "block";
+    document.querySelector('.hamburger-menu img').style.display = "block";
 }
 document.getElementById('menu-trigger').addEventListener('click', sideMenuAppears);
 document.getElementById('menu-close').addEventListener('click', sideMenuDisappears);
