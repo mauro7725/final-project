@@ -1772,18 +1772,6 @@ i.fa.fa-envelope-open.w3-larger {
 }
 
 @media screen and (min-width: 1200px) {
-    .side-menu-header {
-        display: none;
-    }
-
-    .side-menu-content {
-        display: none;
-    }
-
-    .nav-logo-container a {
-        display: block;
-    }
-
     .hero-block {
         background-image: url("../images/hero-large.png"), linear-gradient(rgb(51, 63, 82, 0.0), rgb(53, 72, 96, 1.0));
         min-height: 800px;
