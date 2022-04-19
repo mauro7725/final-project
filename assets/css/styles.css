@@ -1545,6 +1545,10 @@ i.fa.fa-envelope-open.w3-larger {
         font-size: 14px;
     }
 
+    .stats-block {
+        background-image: url("../images/stats-large.png"), var(--overlayGradient);
+    }
+
     .stats-container {
         flex-direction: row;
         width: 550px;
