@@ -555,7 +555,7 @@ i#menu-close.material-icons.close-button {
 
 .stats-block {
     background-color: var(--slaterGray);
-    background-image: url("../images/stats-medium.png"), var(--overlayGradient);
+    background-image: url("../images/stats-small.png"), var(--overlayGradient);
     background-blend-mode: normal;
     background-size: cover;
     position: relative;
@@ -566,9 +566,9 @@ i#menu-close.material-icons.close-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 84%;
     min-height: 300px;
-    padding: 38px 115px;
+    padding: 38px 78px;
 }
 
 .stats-container {
@@ -585,13 +585,12 @@ i#menu-close.material-icons.close-button {
 
 .stat-container span {
     font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 36px;
     color: white;
 }
 
 .stat-container h4 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 23px;
     color: white;
 }
@@ -1546,19 +1545,9 @@ i.fa.fa-envelope-open.w3-larger {
         font-size: 14px;
     }
 
-
-
     .stats-container {
         flex-direction: row;
         width: 550px;
-    }
-
-    .stat-container span {
-        font-size: 26px;
-    }
-
-    .stat-container h4 {
-        font-size: 20px;
     }
 
     .form-error span {
